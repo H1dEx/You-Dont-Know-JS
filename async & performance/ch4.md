@@ -366,7 +366,7 @@ s2();		// b = a * 2;
 Before I tell you the results, can you figure out what `a` and `b` are after the preceding program? No cheating!
 
 ```js
-console.log( a, b );	// 12 18
+console.log( a, b );	// 12 24
 ```
 
 **Note:** As an exercise for the reader, try to see how many other combinations of results you can get back rearranging the order of the `s1()` and `s2()` calls. Don't forget you'll always need three `s1()` calls and four `s2()` calls. Recall the discussion earlier about matching `next()` with `yield` for the reasons why.
